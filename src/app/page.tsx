@@ -1,6 +1,6 @@
 export default function Home() {
   return (
-    <div className="min-h-screen flex items-center justify-center bg-orange-100 p-6">
+    <div className="min-h-screen flex items-center justify-center bg-amber-100 p-6">
       <div className="w-full max-w-5xl bg-white rounded-3xl shadow-sm border-2 border-amber-500/80 overflow-hidden">
         <div className="flex items-stretch">
           {/* Left: QR placeholder */}
@@ -10,8 +10,8 @@ export default function Home() {
 
           {/* Divider (perforation style) */}
           <div className="w-px bg-gradient-to-b from-transparent via-neutral-200 to-transparent relative">
-            <div className="absolute -left-2 -top-3 size-6 bg-orange-100 rounded-full border border-neutral-200"></div>
-            <div className="absolute -left-2 -bottom-3 size-6 bg-orange-100 rounded-full border border-neutral-200"></div>
+            <div className="absolute -left-2 -top-3 size-6 bg-amber-100 rounded-full border border-neutral-200"></div>
+            <div className="absolute -left-2 -bottom-3 size-6 bg-amber-100 rounded-full border border-neutral-200"></div>
           </div>
 
           {/* Right: Ticket info */}
@@ -60,8 +60,8 @@ export default function Home() {
           </div>
           {/* Right rail brand strip */}
           <div className="w-14 bg-neutral-900 text-white relative flex items-center justify-center">
-            <div className="absolute -left-3 top-6 size-6 bg-orange-100 rounded-full border border-neutral-200"></div>
-            <div className="absolute -left-3 bottom-6 size-6 bg-orange-100 rounded-full border border-neutral-200"></div>
+            <div className="absolute -left-3 top-6 size-6 bg-amber-100 rounded-full border border-neutral-200"></div>
+            <div className="absolute -left-3 bottom-6 size-6 bg-amber-100 rounded-full border border-neutral-200"></div>
             <div className="text-[10px] tracking-widest -rotate-90 whitespace-nowrap">BOARDING PASS • JET AIRWAYS</div>
           </div>
         </div>
